@@ -8,7 +8,7 @@ class Rec < Formula
 
   url "https://github.com/arunofhyd/Rec/archive/refs/tags/v#{version}.tar.gz"
   # PLACEHOLDER SHA256 — GitHub Action replaces this on first release
-  sha256 "6829d29163b772b603d0c7b0ff8c12a6d33e0f740da74e38296d00add98729f1"
+  sha256 "44de2537027c4f3995f01a1bac4bace02dcfb267c2f12c170138f9c91c773ef4"
 
   def install
     system "swiftc", "-O", "-o", "rec", "main.swift",
