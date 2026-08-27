@@ -1,6 +1,6 @@
 cask "rec" do
-  version "1.3.2"
-  sha256 "f0a7f3b35508e14c996e768c736f1b7b1d3c54b3624214e98a8732b3a82d1613" # Make sure to put the actual shasum output here!
+  version "1.3.3"
+  sha256 "d501c1cdc02c744a7c794a1def4ae9e3592fc7a6432b018858e13ac91584bf3e" # Make sure to put the actual shasum output here!
 
   url "https://github.com/arunofhyd/Rec/releases/download/v#{version}/Rec.zip"
   name "Rec"
